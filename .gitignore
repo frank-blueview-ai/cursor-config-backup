@@ -1,0 +1,24 @@
+# Backup archives
+*.tar.gz
+*.zip
+
+# Backup directories
+cursor_config_backup_*/
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.directory
+*~
+
+# Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
