@@ -26,6 +26,8 @@ This will create a timestamped backup archive (e.g., `cursor_config_backup_20250
 
 ### Restore Your Configuration
 
+For a quick restoration:
+
 ```bash
 # Extract the backup archive
 tar -xzf cursor_config_backup_YYYYMMDD_HHMMSS.tar.gz
@@ -36,6 +38,8 @@ cd cursor_config_backup_YYYYMMDD_HHMMSS
 # Run the restore script
 ./restore_cursor_config.sh
 ```
+
+For detailed restoration instructions, see the [Comprehensive Restoration Guide](RESTORE_GUIDE.md).
 
 ## What's Included in the Backup
 
@@ -70,6 +74,7 @@ If you encounter issues during restoration:
 1. Check that Cursor is not running during the restore process
 2. Verify that you have the necessary permissions to write to the configuration directories
 3. For cross-platform transfers, adjust paths as needed for the target operating system
+4. See the [Comprehensive Restoration Guide](RESTORE_GUIDE.md) for detailed troubleshooting steps
 
 ## License
 
